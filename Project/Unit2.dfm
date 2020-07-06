@@ -1,0 +1,169 @@
+object Form2: TForm2
+  Left = 541
+  Top = 242
+  Width = 388
+  Height = 387
+  Caption = 'Form2'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 48
+    Top = 24
+    Width = 281
+    Height = 33
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Perhitungan'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 104
+    Top = 272
+    Width = 153
+    Height = 25
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Hasil'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 40
+    Top = 128
+    Width = 289
+    Height = 25
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Rumus'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 40
+    Top = 80
+    Width = 49
+    Height = 17
+    AutoSize = False
+    Caption = 'Rumus'
+  end
+  object Label5: TLabel
+    Left = 40
+    Top = 168
+    Width = 49
+    Height = 17
+    AutoSize = False
+    Caption = 'Label5'
+  end
+  object Label6: TLabel
+    Left = 40
+    Top = 200
+    Width = 49
+    Height = 17
+    AutoSize = False
+    Caption = 'Label6'
+  end
+  object Label7: TLabel
+    Left = 40
+    Top = 232
+    Width = 49
+    Height = 17
+    AutoSize = False
+    Caption = 'Label7'
+  end
+  object Button1: TButton
+    Left = 280
+    Top = 168
+    Width = 57
+    Height = 33
+    Caption = 'HITUNG'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 280
+    Top = 216
+    Width = 57
+    Height = 33
+    Caption = 'CLEAR'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Edit1: TEdit
+    Left = 96
+    Top = 168
+    Width = 169
+    Height = 21
+    TabOrder = 2
+  end
+  object Edit2: TEdit
+    Left = 96
+    Top = 200
+    Width = 169
+    Height = 21
+    TabOrder = 3
+  end
+  object Edit3: TEdit
+    Left = 96
+    Top = 232
+    Width = 169
+    Height = 21
+    TabOrder = 4
+  end
+  object ComboBox1: TComboBox
+    Left = 96
+    Top = 80
+    Width = 169
+    Height = 21
+    ItemHeight = 13
+    TabOrder = 5
+    Text = 'Pilihlah rumus anda'
+  end
+  object Button3: TButton
+    Left = 280
+    Top = 80
+    Width = 57
+    Height = 33
+    Caption = 'PILIH'
+    TabOrder = 6
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 32
+    Top = 264
+    Width = 57
+    Height = 41
+    Caption = 'Back'
+    TabOrder = 7
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 280
+    Top = 264
+    Width = 57
+    Height = 41
+    Caption = 'EXIT'
+    TabOrder = 8
+    OnClick = Button5Click
+  end
+end
