@@ -1,9 +1,5 @@
 # Mencari-luas-keliling-alas-tinggi-pada-PersegiPanjang-Segitiga-dan-Lingkaran-dengan-delphi7
 
-Credit : Ardhi Ramadhani
-# Project ini Masih Dalam Proses Dan ada Bad Syntax yang Belum di fix tetapi masih bisa digunakan
-
-
 # Preview Program :
 ![1](https://user-images.githubusercontent.com/56034940/86614953-fb1ed180-bfdd-11ea-8128-6d4453b206f3.jpg)
 
